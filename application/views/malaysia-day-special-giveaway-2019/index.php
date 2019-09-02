@@ -180,8 +180,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="content-section pt-sm-5" style="background: #283794">
       <div class="container p-0">
         <div class="card border-0 rounded-0">
-          <img class="card-img rounded-0 d-sm-block d-none" src="<?= asset_url('campaign/malaysia-day-special-giveaway-2019/img/banner/hero.png?ver=201909021949'); ?>" data-src="holder.js/1896x884?text=Merdeka%20Special%20Giveaway%202019&auto=yes" alt="Merdeka Special Giveaway 2019" title="Merdeka Special Giveaway 2019">
-          <img class="card-img rounded-0 d-sm-none d-block pt-3" src="<?= asset_url('campaign/malaysia-day-special-giveaway-2019/img/banner/hero-mobile.png?ver=201909021949'); ?>" data-src="holder.js/700x700?text=Merdeka%20Special%20Giveaway%202019&auto=yes" alt="Merdeka Special Giveaway 2019" title="Merdeka Special Giveaway 2019">
+          <img class="card-img rounded-0 d-sm-block d-none" src="<?= asset_url('campaign/malaysia-day-special-giveaway-2019/img/banner/hero.png?ver=201909021949'); ?>" data-src="holder.js/1896x884?text=Malaysia%20Day%20Special%20Giveaway%202019&auto=yes" alt="Malaysia Day Special Giveaway 2019" title="Malaysia Day Special Giveaway 2019">
+          <img class="card-img rounded-0 d-sm-none d-block pt-3" src="<?= asset_url('campaign/malaysia-day-special-giveaway-2019/img/banner/hero-mobile.png?ver=201909021949'); ?>" data-src="holder.js/700x700?text=Malaysia%20Day%20Special%20Giveaway%202019&auto=yes" alt="Malaysia Day Special Giveaway 2019" title="Malaysia Day Special Giveaway 2019">
           <div class="card-img-overlay">
             <a href="#overview" class="learn-more-btn btn btn-lg btn-danger rounded-pill text-sm-md text-sm px-5 position-absolute" title="Learn More">Learn More</a>
           </div>
@@ -338,7 +338,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <a class="btn btn-outline-primary" id="watermark_btn" href="<?= current_url().'/remove-watermark'; ?>">Remove Watermark</a>
           </li>
           <li class="nav-item ml-sm-3 ml-0">
-            <a class="btn btn-primary" id="order_btn" href="<?= current_url().'/confirm-order'; ?>">Order Now</a>
+            <a class="btn btn-primary" id="order_btn" href="<?= current_url().'/confirm-order'; ?>">Place Order Now</a>
           </li>
         </ul>
       </div>
