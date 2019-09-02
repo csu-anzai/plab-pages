@@ -1,5 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
+$campaign = 'malaysia-day-special-giveaway-2019';
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -187,7 +188,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <!-- Section T&C -->
     <div class="content-section bg-white">
       <div class="container p-4">
-        <a href="<?= previous_url(); ?>" class="font-weight-bold text-decoration-none d-block mb-3" title="Back to Previous Page"><i class="fas fa-arrow-left mr-1"></i> Back to Previous Page</a>
+        <a href="<?= site_url($campaign); ?>" class="font-weight-bold text-decoration-none d-block mb-3" title="Back to Previous Page"><i class="fas fa-arrow-left mr-1"></i> Back to Previous Page</a>
         <div class="headline row px-2">
           <h5 class="headline-title col-sm-5 col-15 bg-primary text-white m-0 pl-3 py-2">Remove Watermark</h5>
           <div class="headline-stripe col px-5"></div>
