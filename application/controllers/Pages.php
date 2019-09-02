@@ -25,7 +25,7 @@ class Pages extends CI_Controller {
 
 			// If user visit pages via short url "p"
 			if ($method == 'p') {
-				empty($params[0]) && show_404();
+				empty($params[0]) && redirect('https://www.printinglab.my');
 				$method = $params[0];
 				unset($params[0]);
 				sort($params);
@@ -47,8 +47,8 @@ class Pages extends CI_Controller {
 				$page = $params[0];
 			}
 			$file = $method.'/'.$page.'.php';
-			file_exists(VIEWPATH.$file) OR show_404();
-			
+			file_exists(VIEWPATH.$file) OR redirect('https://www.printinglab.my');
+
 			$this->load->view($file);
 		}
 	}
