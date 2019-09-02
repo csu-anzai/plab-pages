@@ -292,7 +292,7 @@ $campaign = 'malaysia-day-special-giveaway-2019';
               <li><p>You're required to prepare your own artwork in <b class="text-primary">AI</b> (Adobe Illustrator) or <b class="text-primary">PDF</b> file format.</p></li>
               <li><p>You're required to pay <b class="text-primary">RM 10 for the shipping & handling fee</b> in order to get your FREE business card delivered to your doorstep. <i><sup>*</sup>Only ship within Peninsular Malaysia</i></p></li>
               <li><p>This campaign is <b class="text-primary">limited to only first 200 people</b> within the campaign period, on a first come first serve basis.</p></li>
-              <li><p>You're subjected to agree for a tiny watermark <b class="text-primary">"FREE Business Card by PrintingLab.MY"</b> <i>as illustrated in the <a href="#figure-3">figure</a> below</i> to be printed on the back side of your FREE business cards, at the bottom center position.</p></li>
+              <li><p>You're subjected to agree for a tiny watermark <b class="text-primary">"FREE Business Card by PrintingLab.MY"</b> <a href="#figure-3"><i>as illustrated in the figure below</i></a> to be printed on the back side of your FREE business cards, at the bottom center position.</p></li>
               <li><p>PrintingLab.MY reserves the right to amend and finalise the content of the watermark.</p></li>
               <li><p>Any cancellation of the order, amendment of the artwork or refund of delivery fee is not accepted once PrintingLab.MY has confirmed the order (notice given via WhatsApp).</p></li>
               <li><p>PrintingLab.MY shall not be seek responsibility for any defective or damage of the goods delivered. Any re-print or refund request is not accepted.</p></li>
