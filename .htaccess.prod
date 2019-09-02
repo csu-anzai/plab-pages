@@ -1,0 +1,27 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+
+  # Enforce SSL HTTPS
+  <IfModule mod_ssl.c>
+    RewriteCond %{HTTPS} !=on
+    RewriteRule ^.*$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+  </IfModule>
+
+  # Hide index.php
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond $1 !^(index\.php|static|robots\.txt|humans\.txt)
+  RewriteRule ^(.*)$ index.php/$1 [L,QSA]
+</IfModule>
+
+<IfModule mod_authz_core.c>
+  Require all granted
+</IfModule>
+<IfModule !mod_authz_core.c>
+  Order Allow,Deny
+  Allow from all
+</IfModule>
+
+ErrorDocument 400 /error_pages/400.shtml
+ErrorDocument 403 /error_pages/403.shtml
+ErrorDocument 404 /error_pages/404.shtml
