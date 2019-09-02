@@ -1,6 +1,7 @@
+# BEGIN Plab rules, do not edit
 <IfModule mod_rewrite.c>
   RewriteEngine on
-  RewriteBase /plab/pages/
+  RewriteBase /pages/
 
   # Hide index.php
   RewriteCond %{REQUEST_FILENAME} !-f
@@ -8,3 +9,13 @@
   RewriteCond $1 !^(index\.php)
   RewriteRule ^(.*)$ index.php/$1 [L,QSA]
 </IfModule>
+
+# Allow access
+<IfModule mod_authz_core.c>
+  Require all granted
+</IfModule>
+<IfModule !mod_authz_core.c>
+  Order Allow,Deny
+  Allow from all
+</IfModule>
+# END Plab rules, do not edit
