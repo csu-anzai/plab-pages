@@ -180,7 +180,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <main class="section-main">
     <div class="content-section bg-white">
       <div class="container">
-        <img class="img-fluid mt-sm-0 mt-3" src="<?= asset_url('campaign/malaysia-day-special-giveaway-2019/img/banner/leaderboard.png');?>" alt="Malaysia Day Special Giveaway 2019" title="Malaysia Day Special Giveaway 2019" data-src="holder.js/1920x300?text=leaderboard&auto=yes">
+        <img class="img-fluid mt-sm-0 mt-3" src="<?= asset_url('campaign/malaysia-day-special-giveaway-2019/img/banner/leaderboard.png?ver=201909021949');?>" alt="Malaysia Day Special Giveaway 2019" title="Malaysia Day Special Giveaway 2019" data-src="holder.js/1920x300?text=leaderboard&auto=yes">
       </div>
     </div>
 
@@ -207,7 +207,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                   <input type="radio" class="custom-control-input" id="corner_square" name="corner" value="0" checked>
                   <label class="custom-control-label" for="corner_square">
                     <div class="card">
-                      <img class="card-img" src="<?= asset_url('campaign/malaysia-day-special-giveaway-2019/img/addons/square.png');?>" alt="Square Corner" title="Square Corner" data-src="holder.js/200x200?text=square&size=16&auto=yes">
+                      <img class="card-img" src="<?= asset_url('campaign/malaysia-day-special-giveaway-2019/img/addons/square.png?ver=201909021949');?>" alt="Square Corner" title="Square Corner" data-src="holder.js/200x200?text=square&size=16&auto=yes">
                     </div>
                     <div class="text-center mt-2 font-weight-bold">Standard Square</div>
                   </label>
@@ -218,7 +218,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                   <input type="radio" class="custom-control-input" id="corner_round" name="corner" value="1">
                   <label class="custom-control-label" for="corner_round">
                     <div class="card">
-                      <img class="card-img" src="<?= asset_url('campaign/malaysia-day-special-giveaway-2019/img/addons/round.png');?>" alt="Round Corner" title="Round Corner" data-src="holder.js/200x200?text=round&size=16&auto=yes">
+                      <img class="card-img" src="<?= asset_url('campaign/malaysia-day-special-giveaway-2019/img/addons/round.png?ver=201909021949');?>" alt="Round Corner" title="Round Corner" data-src="holder.js/200x200?text=round&size=16&auto=yes">
                     </div>
                     <div class="text-center mt-2 font-weight-bold">Round Corner</div>
                   </label>
@@ -234,7 +234,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                   <input type="radio" class="custom-control-input" id="fn_matt_lam" name="fn" value="0" checked>
                   <label class="custom-control-label" for="fn_matt_lam">
                     <div class="card">
-                      <img class="card-img" src="<?= asset_url('campaign/malaysia-day-special-giveaway-2019/img/addons/matt-lam.png');?>" alt="Matt Lamination" title="Matt Lamination" data-src="holder.js/200x200?text=matt-lam&size=16&auto=yes">
+                      <img class="card-img" src="<?= asset_url('campaign/malaysia-day-special-giveaway-2019/img/addons/matt-lam.png?ver=201909021949');?>" alt="Matt Lamination" title="Matt Lamination" data-src="holder.js/200x200?text=matt-lam&size=16&auto=yes">
                     </div>
                     <div class="text-center mt-2 font-weight-bold">Matt Lam</div>
                   </label>
@@ -245,7 +245,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                   <input type="radio" class="custom-control-input" id="fn_spot_uv" name="fn" value="1">
                   <label class="custom-control-label" for="fn_spot_uv">
                     <div class="card">
-                      <img class="card-img" src="<?= asset_url('campaign/malaysia-day-special-giveaway-2019/img/addons/spot-uv.png');?>" alt="Spot UV" title="Spot UV" data-src="holder.js/200x200?text=spot%20uv&size=16&auto=yes">
+                      <img class="card-img" src="<?= asset_url('campaign/malaysia-day-special-giveaway-2019/img/addons/spot-uv.png?ver=201909021949');?>" alt="Spot UV" title="Spot UV" data-src="holder.js/200x200?text=spot%20uv&size=16&auto=yes">
                     </div>
                     <div class="text-center mt-2 font-weight-bold">Spot UV</div>
                   </label>
@@ -256,7 +256,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                   <input type="radio" class="custom-control-input" id="fn_hot_stamping" name="fn" value="2">
                   <label class="custom-control-label" for="fn_hot_stamping">
                     <div class="card">
-                      <img class="card-img" src="<?= asset_url('campaign/malaysia-day-special-giveaway-2019/img/addons/hot-stamping.png');?>" alt="Hot Stamping" title="Hot Stamping" data-src="holder.js/200x200?text=hot-stamping&size=16&auto=yes">
+                      <img class="card-img" src="<?= asset_url('campaign/malaysia-day-special-giveaway-2019/img/addons/hot-stamping.png?ver=201909021949');?>" alt="Hot Stamping" title="Hot Stamping" data-src="holder.js/200x200?text=hot-stamping&size=16&auto=yes">
                     </div>
                     <div class="text-center mt-2 font-weight-bold">Hot Stamping</div>
                   </label>
