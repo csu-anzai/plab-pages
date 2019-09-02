@@ -338,7 +338,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <a class="btn btn-outline-primary" id="watermark_btn" href="<?= current_url().'/remove-watermark'; ?>">Remove Watermark</a>
           </li>
           <li class="nav-item ml-sm-3 ml-0">
-            <a class="btn btn-primary" id="order_btn" href="<?= current_url().'/confirm-order'; ?>">Order Now</a>
+            <a class="btn btn-primary" id="order_btn" href="<?= current_url().'/confirm-order'; ?>">Place Order Now</a>
           </li>
         </ul>
       </div>
