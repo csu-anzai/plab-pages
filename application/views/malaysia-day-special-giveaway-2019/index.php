@@ -1,5 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
+$campaign = 'malaysia-day-special-giveaway-2019';
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -233,7 +234,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <div class="row mt-sm-5 mt-4 mx-sm-3 mx-0 py-sm-5 py-4 bg-white">
           <div class="col-sm-15 col-24 mx-auto px-sm-0 px-4">
-            <p>All the FREE business cards will be printed based on the specifications as shown in the following table:</p>
+            <p>All the FREE business cards will be printed based on the specification as shown in the following table:</p>
             <div class="card card-spec shadow-sm">
               <table class="table table-bordered mb-0">
                 <tbody>
@@ -244,13 +245,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </td>
                   </tr>
                   <tr>
-                    <th scope="row" style="width: 35%">Weight Options</th>
+                    <th scope="row" style="width: 35%">Card Weight</th>
                     <td scope="col" style="width: 65%">
                       <ol class="list-unstyled m-0">260gsm (Art Card)</ol>
                     </td>
                   </tr>
                   <tr>
-                    <th scope="row" style="width: 35%">Printing Options</th>
+                    <th scope="row" style="width: 35%">Printing</th>
                     <td scope="col" style="width: 65%">
                       <ol class="list-unstyled m-0">Full colour printing, front and back (4C + 4C)</ol>
                     </td>
@@ -289,9 +290,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
           <div class="col-sm-18 col-24 pr-sm-0 pr-3">
             <ol class="text-sm">
               <li><p>You're required to prepare your own artwork in <b class="text-primary">AI</b> (Adobe Illustrator) or <b class="text-primary">PDF</b> file format.</p></li>
-              <li><p>You're required to pay <b class="text-primary">RM 10 for the shipping</b> & handling fee in order to get your FREE business card delivered to your doorstep. <i><sup>*</sup>Only ship within Peninsular Malaysia</i></p></li>
-              <li><p>This campaign is <b class="text-primary">limited to only first 200</b> people within the campaign period, on a first come, first serve basis.</p></li>
-              <li><p>You're subjected to agree for a tiny watermark <b class="text-primary">"FREE Business Card by PrintingLab.MY"</b> <a href="#figure-3"<i>as illustrated in the figure below</i></a> to be printed on the back side of your FREE business cards, at the bottom center position.</p></li>
+              <li><p>You're required to pay <b class="text-primary">RM 10 for the shipping & handling fee</b> in order to get your FREE business card delivered to your doorstep. <i><sup>*</sup>Only ship within Peninsular Malaysia</i></p></li>
+              <li><p>This campaign is <b class="text-primary">limited to only first 200 people</b> within the campaign period, on a first come first serve basis.</p></li>
+              <li><p>You're subjected to agree for a tiny watermark <b class="text-primary">"FREE Business Card by PrintingLab.MY"</b> (<a href="#figure-3"<i>as illustrated in the figure below</i></a>) to be printed on the back side of your FREE business cards, at the bottom center position.</p></li>
               <li><p>PrintingLab.MY reserves the right to amend and finalise the content of the watermark.</p></li>
               <li><p>Any cancellation of the order, amendment of the artwork or refund of delivery fee is not accepted once PrintingLab.MY has confirmed the order (notice given via WhatsApp).</p></li>
               <li><p>PrintingLab.MY shall not be seek responsibility for any defective or damage of the goods delivered. Any re-print or refund request is not accepted.</p></li>
@@ -316,7 +317,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <img class="img-fluid" id="figure-3" src="<?= asset_url('campaign/malaysia-day-special-giveaway-2019/img/learn-more/figure-3.png?ver=201909021949'); ?>" data-src="holder.js/1685x762?text=figure%203&auto=yes" alt="Figure 3">
           </div>
           <div class="col-24 text-center font-weight-bold mt-3">
-            <a href="<?= current_url().'/remove-watermark'; ?>" class="text-decoration-none">CLICK HERE to learn more about how to remove watermark.</a>
+            <a href="<?= site_url($campaign.'/remove-watermark'); ?>" class="text-decoration-none">CLICK HERE to learn more about how to remove watermark.</a>
           </div>
           <div class="col-24 text-center mt-3">
             <a href="#cta" class="text-xl font-weight-bold d-block"><i class="fas fa-angle-double-down"></i></a>
@@ -335,10 +336,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         <ul class="nav justify-content-center align-items-center flex-sm-row flex-column my-5">
           <li class="nav-item order-sm-first order-last mt-sm-0 mt-3">
-            <a class="btn btn-outline-primary" id="watermark_btn" href="<?= current_url().'/remove-watermark'; ?>">Remove Watermark</a>
+            <a class="btn btn-outline-primary" id="watermark_btn" href="<?= site_url($campaign.'/remove-watermark'); ?>">Remove Watermark</a>
           </li>
           <li class="nav-item ml-sm-3 ml-0">
-            <a class="btn btn-primary" id="order_btn" href="<?= current_url().'/confirm-order'; ?>">Place Order Now</a>
+            <a class="btn btn-primary" id="order_btn" href="<?= site_url($campaign.'/confirm-order'); ?>">Place Order Now</a>
           </li>
         </ul>
       </div>
