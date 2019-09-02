@@ -1,7 +1,7 @@
 # BEGIN Plab rules, do not edit
 <IfModule mod_rewrite.c>
   RewriteEngine on
-  RewriteBase /
+  RewriteBase /pages/
 
   # Hide index.php
   RewriteCond %{REQUEST_FILENAME} !-f
